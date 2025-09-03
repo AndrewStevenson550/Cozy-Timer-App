@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comic+Relief:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+
+
+
 body{
   background-color: #17329d;
 }
@@ -35,6 +39,29 @@ body{
 }
 
 .button{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color:#304fcf;
+  position: absolute;
+  top:78%;
+  right:46.9%;
+  font-family: 'Story Script';
+  z-index:10;
+  font-size:20px;
+  border-radius:5px;
+  border-color:none;
+  box-sizing: border-box;
+  border-style: none;
+  border-color: black;
   
 }
 
+
+.button:hover{
+  background-color:#17329d;
+  
+  
+  transition: background-color 0.3s ease-in-out; /* Transition background-color over 0.5 seconds */
+    
+}
